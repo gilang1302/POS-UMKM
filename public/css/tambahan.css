@@ -1,0 +1,14 @@
+/* tambahan kecil di atas tema bawaan */
+
+.kartu-produk { cursor: pointer; transition: box-shadow .15s, transform .15s; }
+.kartu-produk:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, .15); transform: translateY(-2px); }
+.kartu-produk.habis { opacity: .5; cursor: not-allowed; }
+
+.daftar-produk { max-height: 560px; overflow-y: auto; }
+.angka-besar { font-size: 1.9rem; font-weight: 700; line-height: 1.1; }
+.tabel-rapat td, .tabel-rapat th { padding: .55rem .75rem !important; }
+
+.struk-kertas { max-width: 340px; margin: 0 auto; font-family: "Courier New", monospace; }
+.qr-kotak svg { width: 240px; height: 240px; }
+
+#grafik-wrap { position: relative; height: 280px; }

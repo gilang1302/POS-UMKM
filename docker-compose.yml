@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DB_DATABASE: /data/database.sqlite
+    volumes:
+      # database disimpan di volume supaya data tidak hilang saat container dibuat ulang
+      - pos_data:/data
+
+volumes:
+  pos_data:

@@ -1,0 +1,50 @@
+/* tampilan struk, lebar kertas thermal 58mm */
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  color: #000;
+}
+
+.alat {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+.alat button {
+  background: #1572e8;
+  color: #fff;
+  border: 1px solid #1a2035;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.alat a { color: #1f4fa3; }
+
+.struk {
+  width: 58mm;
+  margin: 0 auto 30px;
+  padding: 4mm 3mm;
+  background: #fff;
+  box-shadow: 0 4px 14px #1a203530;
+}
+
+.tengah { text-align: center; }
+.nama-toko { font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+.garis { border-top: 1px dashed #000; margin: 6px 0; }
+.baris { display: flex; justify-content: space-between; gap: 6px; }
+.item { margin-top: 3px; }
+.tebal { font-weight: 700; font-size: 13px; }
+
+@media print {
+  body { background: #fff; }
+  .alat { display: none; }
+  .struk { box-shadow: none; margin: 0; width: 100%; }
+  @page { margin: 0; size: 58mm auto; }
+}

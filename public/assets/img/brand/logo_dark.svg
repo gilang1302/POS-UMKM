@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 32" width="150" height="32" role="img" aria-label="POS UMKM">
+  <rect x="2" y="3" width="24" height="26" rx="5" fill="#ffc107"/>
+  <rect x="7" y="8" width="14" height="5" rx="1" fill="#1a2035"/>
+  <circle cx="9" cy="19" r="1.6" fill="#1a2035"/><circle cx="14" cy="19" r="1.6" fill="#1a2035"/><circle cx="19" cy="19" r="1.6" fill="#1a2035"/>
+  <circle cx="9" cy="24" r="1.6" fill="#1a2035"/><circle cx="14" cy="24" r="1.6" fill="#1a2035"/><circle cx="19" cy="24" r="1.6" fill="#1a2035"/>
+  <text x="34" y="23" font-family="Public Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#1a2035">POS UMKM</text>
+</svg>
